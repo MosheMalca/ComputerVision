@@ -2,10 +2,10 @@
 import cv2
 
 # Loads the face recognition classifier
-machineFaceRec = cv2.CascadeClassifier(r'C:\Users\Moshe\Desktop\studi\computers\projects\ComputerVision\haarcascade_frontalface_default.xml')
+machineFaceRec = cv2.CascadeClassifier(<Add a path to the classifier>\haarcascade_frontalface_default.xml')
 
 # Read the input image
-img = cv2.imread(r'C:\Users\Moshe\Desktop\studi\computers\projects\ComputerVision\images.jpg')
+img = cv2.imread(<Add a path to the image>\images.jpg')
 
 # Convert image to gray color style
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
